@@ -19,6 +19,9 @@ RUN go build -o microservices-demo
 FROM alpine:3.18
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com"
 
+# User the default non-root user in Alpine: `nobody`
+USER 65534
+
 # Set the Current Working Directory inside the container
 WORKDIR /app
 
