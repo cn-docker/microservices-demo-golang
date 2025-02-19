@@ -1,7 +1,7 @@
 ###############################################################################
 # Build Go Binary
 ###############################################################################
-FROM golang:1.23-alpine3.21 AS GO_BUILD
+FROM golang:1.24-alpine3.21 AS GO_BUILD
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com"
 
 # Set the Current Working Directory inside the container
