@@ -16,7 +16,7 @@ RUN go build -o microservices-demo
 ###############################################################################
 # Backend Docker Image
 ###############################################################################
-FROM alpine:3.22
+FROM alpine:3.23
 LABEL maintainer="Julian Nonino <noninojulian@gmail.com"
 
 # User the default non-root user in Alpine: `nobody`
